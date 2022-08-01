@@ -3,7 +3,9 @@ import './App.css';
 
 function Header() {
   return <header>
-  <h1 className='title'>Blog</h1>
+  <div className='titleWrapper'>
+    <h1>Kulmboin Blog</h1>
+  </div>
 </header>
 }
 
